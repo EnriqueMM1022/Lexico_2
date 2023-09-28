@@ -58,8 +58,32 @@ namespace LYA1_Lexico2
                         else if (Transicion == ';')
                         estado = 9;
                         else if (Transicion == '&')
-                        estado = 10;
+                         else if (Transicion == '|')
+                        estado = 11;
+                        else if (Transicion == '>')
+                        estado = 13;
+                        else if (Transicion == '<')
+                        estado = 14;
+                        else if (Transicion == '!')
+                        estado = 15;
+                        else if (Transicion == '+')
+                        estado = 17;
+                        else if (Transicion == '-')
+                        estado = 18;
+                        else if (Transicion == '%' || Transicion == '7' || Transicion == '*')
+                        estado = 20;
+                        else if (Transicion == '"')
+                        estado = 22;
+                        else if (Transicion == '\'')
+                        estado = 24;
+                        else if (Transicion == '?')
+                        estado = 25;
+                        else if (Transicion == '#')
+                        estado = 27;
+                        else
+                        estado = 26;
                         break;
+
                     case 1:
                         setClasificacion(Tipos.Identificador);
                         if (!char.IsLetterOrDigit(c))

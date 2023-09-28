@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace LYA1_Lexico2
+namespace Lexico2
 {
     class Program
     {
@@ -19,10 +19,7 @@ namespace LYA1_Lexico2
                     }
                 }
             } 
-            catch (Exception e)
-            {
-                Console.WriteLine("Error: "+e.Message);
-            }
+
         }
     }
 }
