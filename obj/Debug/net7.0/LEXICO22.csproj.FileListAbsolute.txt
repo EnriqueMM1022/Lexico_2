@@ -1,0 +1,4 @@
+C:\Users\enriq\OneDrive\Documentos\LEXICO22\obj\Debug\net7.0\LEXICO22.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\enriq\OneDrive\Documentos\LEXICO22\obj\Debug\net7.0\LEXICO22.AssemblyInfoInputs.cache
+C:\Users\enriq\OneDrive\Documentos\LEXICO22\obj\Debug\net7.0\LEXICO22.AssemblyInfo.cs
+C:\Users\enriq\OneDrive\Documentos\LEXICO22\obj\Debug\net7.0\LEXICO22.csproj.CoreCompileInputs.cache
